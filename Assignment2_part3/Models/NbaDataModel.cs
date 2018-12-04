@@ -14,5 +14,6 @@ namespace Assignment2_part3.Models
         }
         //reference  model 
         public DbSet<player> players { get; set; }
+        public DbSet<team> teams { get; set; }
     }
 }
