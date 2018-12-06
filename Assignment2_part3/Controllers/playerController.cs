@@ -23,7 +23,7 @@ namespace Assignment2_part3.Controllers
         [HttpGet]
         public IEnumerable<player> Get()
         {
-            return db.players.OrderBy(p => p.first_name).ToList();
+            return db.players.OrderBy(p => p.player_id).ToList();
         }
 
         // GET api/player/5

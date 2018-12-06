@@ -9,6 +9,7 @@ namespace Assignment2_part3.Models
 {   [Table("players")]
     public class player
     {   [Key]
+        
         public int player_id { get; set; }
         [Required]
         public string first_name { get; set; }
